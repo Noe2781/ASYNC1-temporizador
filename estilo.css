@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ca83a9;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #2bd1ee;
+}
+
+p {
+    color: #0af4ec;
+}
+
+input, button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="number"] {
+    width: 60px;
+}
+
+button {
+    background-color: #e63e79;
+    color: rgb(235, 206, 224);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+#contador {
+    font-size: 36px;
+    color: #1fc1ee;
+    margin-top: 20px;
+}
+
+.inputs-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
